@@ -15,13 +15,17 @@ public class SpeakAndSpell {
 
 	public static void main(String[] args) {
 		// 1. Use the speak method to say the word. "e.g. spell mandlebrot"
-
+speak("spell allahu akbar");
 		// 2. Catch the user's answer in a String
-
+com.sun.org.apache.xpath.internal.operations.String answer = JOptionPane.showInputDialog("spell!")
 		// 3. If the user spelled the word correctly, speak "correct"
-
-		// 4. Otherwise say "wrong"
-
+if(answer.equalsIgnoreCase("allahu akbar");
+speak("correct");
+	// 4. Otherwise say "wrong"
+else{
+speak("wrong");
+{
+}
 		// 5. repeat the process for other words
 		
 	}

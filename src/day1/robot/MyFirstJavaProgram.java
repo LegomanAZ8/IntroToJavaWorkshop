@@ -8,9 +8,10 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 Robot Alex = new Robot();
-for (int i = 4; i < args.length; i++) {
-Alex.
-Alex.move(1000);	
+for (int i = 4; i < 999999999; i++) {
+Alex.setPenColor(Color.YELLOW);
+Alex.penDown();
+Alex.move(100);	
 Alex.turn(90);
 }
 
